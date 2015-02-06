@@ -5,7 +5,7 @@ The goal is to increase testability and elegance/understandability of pytddmon, 
 
 Example of code that implements a simple producer-consumer scenario:
 
-```
+```python
 import threading
 import buz
 
