@@ -8,7 +8,7 @@ from buz import Buz
 msgbus = Buz()
 
 fmt = '%(asctime)s %(threadName)s.%(funcName)s: %(message)s'
-logging.basicConfig(filename=__FILE__+'.log',
+logging.basicConfig(filename=__file__ + '.log',
                     format=fmt,
                     level=logging.INFO)
 
